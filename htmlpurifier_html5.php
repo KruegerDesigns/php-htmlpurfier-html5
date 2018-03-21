@@ -63,7 +63,10 @@ function load_htmlpurifier($allowed) {
       'height' => 'Length',
       'poster' => 'URI',
       'preload' => 'Enum#auto,metadata,none',
-      'controls' => 'Bool',
+      'controls' => 'Bool',,
+      'muted' => 'Bool',
+      'autoplay' => 'Bool',
+      'loop' => 'Bool'
     ));
     $def->addElement('source', 'Block', 'Flow', 'Common', array(
       'src' => 'URI',
